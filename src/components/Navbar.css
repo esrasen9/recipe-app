@@ -1,0 +1,110 @@
+a {
+    text-decoration: none;
+}
+.mobile-menu {
+    display: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 2% 4% 1%;
+    color: darkblue;
+}
+
+.navbar-logo {
+    font-size: 4rem;
+    color: crimson;
+    font-family: 'Dancing Script', cursive;;
+}
+.menu {
+    width:60%;
+    font-size: 1.2rem;
+}
+
+.menu-icon{
+    cursor: pointer;
+}
+.menu ul {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.menu a:hover {
+    color: crimson;
+}
+
+.menu-item a {
+    color: darkslateblue;
+}
+.menu-item a:focus {
+    color: crimson;
+}
+
+.navbar-logo {
+    font-size: 4rem;
+    color: crimson;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-logo:hover{
+    color: red;
+}
+
+.signup-item {
+    cursor: pointer;
+    background-color: crimson;
+    padding: 8px;
+    margin-top: -8px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.signup-item a {
+    color: snow;
+}
+
+.signup-item a:focus {
+    color: snow;
+}
+
+.signup-item:hover{
+    background-color: snow;
+    border: 1px solid crimson;
+}
+
+.signup-item:hover a {
+    color: crimson;
+}
+@media screen and (max-width:800px){
+    .menu {
+        display: none;
+    }
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        font-weight: bold;
+        font-family: 'Dancing Script', cursive;
+    }
+    .mobile-menu-item {
+        text-align: right;
+        font-weight: bold;
+        font-family: 'Dancing Script', cursive;
+    }
+    .menu-item-active {
+        color: crimson;
+    }
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:800px){
+    .menu-item {
+        margin-right: 8px;
+    }
+}

@@ -1,0 +1,154 @@
+.form-container {
+    margin: 2% auto;
+    width: 75%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.1), 0 7px 20px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-radius: 10px;
+    height: 72%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.close-btn {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 1.5rem;
+    z-index: 1;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-content-left {
+    background: linear-gradient(
+            90deg,
+            crimson 0%,
+            #db213c 100%
+    );
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+
+.form-success {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+}
+
+.form-success-title {
+    font-size: 2.8rem;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 20%;
+}
+
+.discover-link {
+    color: lightgray;
+}
+.discover-link:hover{
+    color: white;
+}
+
+.form-content-right {
+    border-radius: 0 10px 10px 0;
+    position: relative;
+    padding-top: 25vh;
+    background: linear-gradient(90deg, crimson 0%, #820a20 100%);
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form h1 {
+    font-size: 1.2rem;
+    text-align: start;
+    width: 80%;
+    margin-bottom: 1.4rem;
+    color: #fff;
+}
+
+.form-input-container{
+    margin-bottom: 1.4rem;
+    width: 80%;
+}
+
+.form-input-container p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: cornsilk;
+}
+
+.form-label {
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 6px;
+    color: snow;
+}
+
+.form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    color: darkslateblue;
+}
+
+.form-input::placeholder {
+    color: #595959;
+    font-size: 12px;
+}
+
+.form-input-btn {
+    width: 45%;
+    height: 50px;
+    margin-top: 5%;
+    border-radius: 2px;
+    background: linear-gradient(
+            90deg,
+            crimson 0%,
+            rgba(220, 20, 60, 0.88) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.form-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+            90deg,
+            #e7123e 0%,
+            crimson 100%
+    );
+    transition: all 0.4s ease-out;
+}
+
+.form-input-login {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: lightgrey;
+    width: 80%;
+    text-align: center;
+}
+
+.form-input-login a {
+    text-decoration: none;
+    color: ghostwhite;
+    font-weight: 600;
+}

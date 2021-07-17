@@ -1,0 +1,32 @@
+.home {
+    display:flex;
+    flex-direction:column;
+}
+.search-bar {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search-input {
+    border-radius: 5px;
+    border-color: rgba(220, 20, 60, 0.5);
+    width: 20vw;
+    padding: 0.6rem;
+    margin-right: 4%;
+    font-weight: bold;
+    color: rgba(59, 1, 109, 0.6);
+}
+
+.search-icon {
+    cursor:pointer;
+    margin-right: 1.4rem;
+}
+@media screen and (max-width: 800px) {
+    .search-bar {
+        justify-content: center;
+    }
+    .search-input {
+        width: 70vw;
+        margin-left: 1%;
+    }
+}
